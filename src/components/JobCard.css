@@ -1,0 +1,26 @@
+/* src/components/JobCard.css */
+.job-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.job-company,
+.job-location {
+  margin: 0;
+  color: #777;
+}
